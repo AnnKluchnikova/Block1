@@ -35,7 +35,7 @@ do
   then
       git add "$file"
       git commit -m "Update"
-      git push origin master
+      git push
   fi
   touch ${name}${i}.txt
   dd if=$file of=${name}${i}.txt
